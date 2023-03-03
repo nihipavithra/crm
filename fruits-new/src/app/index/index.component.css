@@ -1,0 +1,36 @@
+.col-md-4{
+    background-image: linear-gradient(to right top, #1657b7, #8d45af, #cd258c, #ed2157, #eb5212);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    text-align: center;
+}
+.col-md-4:hover{
+    background-image: linear-gradient(to right top, #282123, #501439, #6c0062, #70009e, #1a12eb);  
+}
+.h1{
+    color: black;
+}
+.col-md-8{
+    background-image: linear-gradient(to right top, #e02be1, #c217e3, #a006e6, #7406e9, #2312eb);
+}
+.col-md-8:hover{
+    background-image: linear-gradient(to right top, #183703, #00402a, #00456d, #0043a9, #3c0ea4);
+    
+}
+.crm{
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+.btn-primary{
+    margin-left: 250px;
+}
+.btn-primary:hover{
+    background-color: green;
+}
+.container{
+    margin-top: 30px ;
+}

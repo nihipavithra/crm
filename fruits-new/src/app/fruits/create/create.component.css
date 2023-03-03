@@ -1,0 +1,56 @@
+.container{
+    
+background-image: linear-gradient(to right top, #140537, #401258, #751774, #ae1789, #eb1297);
+color: white;
+}
+
+.glow
+{
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #03e9f4;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .glow:hover{
+      background: #03e9f4;
+      color: #050801;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 200px #03e9f4;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
+
+
+
+
+
+
+.container{
+    background-image: linear-gradient(to right top, #140537, #401258, #751774, #ae1789, #eb1297);
+    background-image: linear-gradient(to right top, #371205, #62181b, #911638, #c10d61, #eb1297);
+    background-image: linear-gradient(to right top, #052637, #213467, #742c7c, #c30062, #eb121c);
+    background-image: linear-gradient(to right top, #052637, #00566f, #008a85, #00be6c, #71eb12);
+    background-image: linear-gradient(to right top, #370512, #5b002b, #770058, #79009a, #1b12eb);
+    background-image: linear-gradient(to right top, #183703, #00402a, #00456d, #0043a9, #3c0ea4);
+    
+    
+    }
+
+    .container{
+        margin: 30px;
+        margin-right: 50px;
+    }
+    .CI{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
+    }

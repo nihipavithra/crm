@@ -1,0 +1,42 @@
+.container-fluid{
+    background-image: linear-gradient(to right top, #370512, #5b002b, #770058, #79009a, #1b12eb);
+    color: white;
+}
+.table{
+    color: white;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.btn btn-primary{
+    background-image: linear-gradient(to right top, #10d410, #baae00, #ff7200, #ff1462, #f222bd);
+    color: white;
+}
+.table {
+    margin: 30px;
+}
+.btn {
+    background-image: linear-gradient(to right top, #052637, #00566f, #008a85, #00be6c, #71eb12);
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+.btn:hover{
+    color: aqua;
+}
+.primary{
+    background-image: linear-gradient(to right top, #370512, #5b002b, #770058, #79009a, #1b12eb);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.primary:hover{
+    background-image: linear-gradient(to right top, #0f0537, #74034c, #c33736, #db8f00, #a8eb12);
+    color: greenyellow;
+}
+.tr:hover{
+    color:#71eb12;
+}
+

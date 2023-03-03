@@ -1,0 +1,59 @@
+<div class="container">
+    <legend class="ei">Edit Lead</legend>
+    <form>
+      <div class="row">
+      <div class="col-sm-6">
+        <label for="txtName" class="form-label">NAME</label>
+        <input type="text" name="name" [(ngModel)] = "fruitForm.name" class="form-control" id="txtName" />
+      </div>
+      <div class="col-sm-6">
+        <label for="txtPrice" class="form-label">EMAIL ID</label>
+        <input type="email" name="price" [(ngModel)] = "fruitForm.email" class="form-control" id="txtemil" />
+      </div>
+
+      
+     
+      <div class="col-sm-6">
+        <label for="txtQuantity" class="form-label">PHONE</label>
+        <input type="number" name="quantity" [(ngModel)] = "fruitForm.phone" class="form-control" id="txtPhone" />
+      </div><div class="col-sm-6">
+        <label for="txtQuantity" class="form-label">MOBILE</label>
+        <input type="number" name="mobile" [(ngModel)] = "fruitForm.mobile" class="form-control" id="txtmobile" />
+      </div>
+      <div class="col-sm-6">
+        <label for="txtName"  class="form-label" >LEAD OWNER</label>
+        <select name="leadOwner" id="leadOwner" [(ngModel)] = "fruitForm.leadOwner" class="form-control" >
+          <option value="volvo">PRIYA</option>
+          <option value="saab">NIHITHA</option>
+          <option value="mercedes">THANU</option>
+          <option value="audi">ASHLIYA</option>
+        </select>
+      </div>
+      <div class="col-sm-6">
+        <label for="txtName" class="form-label">RATING</label>
+        <input type="text" name="rating" [(ngModel)] = "fruitForm.rating" class="form-control" id="txtrating" />
+        
+      </div>
+      <div class="col-sm-6">
+        <label for="txtName" class="form-label">COMPANY</label>
+        <input type="text" name="conpany" [(ngModel)] = "fruitForm.company" class="form-control" id="txtcompany" />
+      </div>
+      <div class="col-sm-6">
+        <label for="txtName" class="form-label">LEAD STATUS</label>
+        <input type="text" name="leadstatus" [(ngModel)] = "fruitForm.leadstatus" class="form-control" id="txtlaedstatus" />
+      </div>
+      <div class="col-sm-6">
+        <label for="txtName" class="form-label">INDUSTRY</label>
+        <input type="text" name="industry" [(ngModel)] = "fruitForm.industry" class="form-control" id="txtindustry" />
+      </div>
+      <div class="col-sm-6">
+        <label for="txtName" class="form-label">DISTRICT</label>
+        <input type="text" name="District" [(ngModel)] = "fruitForm.District" class="form-control" id="txtDistrict" />
+      </div>
+      <div class="col-sm-3">
+
+      <button type="button" (click)="update()" class="glow" style="margin-top: 20px;padding: 10px; margin-left: 420px;">UPDATE</button>
+    </div>
+    </div>
+    </form>
+</div>
